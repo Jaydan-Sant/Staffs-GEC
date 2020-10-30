@@ -1,0 +1,3 @@
+﻿  Program7_converting.cpp
+C:\Users\jayda\Documents\Github\Staffs-GEC\Program7_converting\Program7_converting\Program7_converting.cpp(7,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Program7_converting.vcxproj -> C:\Users\jayda\Documents\Github\Staffs-GEC\Program7_converting\Debug\Program7_converting.exe
