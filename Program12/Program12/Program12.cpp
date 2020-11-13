@@ -5,6 +5,6 @@ int main()
 {
 	int rain = 1;
 	int snow = 2;
-
+	cin >>
 }
 
