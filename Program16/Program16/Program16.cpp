@@ -10,15 +10,16 @@ int main()
 
     cout << "You have " << playerLife << " HP" << endl;
     
-    for (int i = 1; i < 10; i++)
+    for (int i = 1; i <= 10; i++)
     {
         cout << "Question " << i << ": How much damage should I deal?\n";
         cin >> damage;
-        playerLife - damage;
+        int newplayerLife = playerLife - damage;
+        playerLife = newplayerLife;
         if (playerLife <= 0)
         {
             cout << "Early end. Player Died!\n";
-            break;
+            return 0;
         }
         else
         {
