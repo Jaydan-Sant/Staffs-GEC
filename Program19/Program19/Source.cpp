@@ -8,11 +8,10 @@ bool oddEven(int num1);
 
 int main()
 {
-	int i;
+	cout << "Please input 10 numbers\n";
 
 	for (int i = 0; i < 10; i++)
 	{
-		cout << "Please enter a number\n";
 		cin >> num1;
 
 		if (oddEven(num1) == true)
